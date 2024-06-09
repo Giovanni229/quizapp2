@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Rubik",sans-serif;
-    
+    font-family: "Rubik", sans-serif;
+    --webkit-font-smoothing: antialised;
+
 }
 
-:root{
-    --bg-color:#f4f6fa;
-    --purple:#a729f5;
+:root {
+    --bg-color: #f4f6fa;
+    --purple: #a729f5;
     --primary-text-color: #313e51;
     --secundary-text-color: #626c7f;
     --button-bg: #fff;
@@ -22,8 +23,7 @@
     --bg--desktop: url(./assets/images/pattern-background-desktop-light.svg);
 }
 
-
-body.escuro{
+body.escuro {
     --bg-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
     --bg--desktop: url(./assets/images/pattern-background-desktop-dark.svg);
@@ -33,7 +33,8 @@ body.escuro{
     --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
 }
 
-body{
+
+body {
     height: 100svh;
     background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
@@ -47,7 +48,8 @@ header {
     max-width: 1160px;
     margin-inline: auto;
 }
-.tema{
+
+.tema {
     padding: 8px 0;
     display: flex;
     align-items: center;
@@ -68,13 +70,19 @@ header {
     display: flex;
     cursor: pointer;
 }
+
 .tema button div {
     background: var(--white);
     width: 12px;
     height: 12px;
     border-radius: 999px;
 }
-main{
+
+main {
     padding: 32px 24px;
+}
+
+.boas_vindas {
+    margin-bottom: 40px;
 }
 

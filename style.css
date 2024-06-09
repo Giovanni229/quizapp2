@@ -115,7 +115,7 @@ main {
     background: var(--button-bg);
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 15px;
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);

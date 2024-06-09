@@ -86,3 +86,21 @@ main {
     margin-bottom: 40px;
 }
 
+.boas_vindas h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--primary-text-color);
+    margin-bottom: 16px;
+}
+
+.boas_vindas h1 strong {
+    font-weight: 500;
+}
+
+.boas_vindas p {
+    color: var(--secundary-text-color);
+    font-size: 14px;
+    line-height: 150%;
+    font-style: italic;
+}
+

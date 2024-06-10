@@ -162,3 +162,15 @@ main {
     margin-bottom: 12px;
 }
 
+.alternativas label {
+    display: block;
+    padding: 12px;
+    background: var(--button-bg);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+

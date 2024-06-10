@@ -154,3 +154,11 @@ main {
     background: var(--purple);
     border-radius: 999px;
 }
+
+.alternativas form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+

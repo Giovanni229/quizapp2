@@ -100,3 +100,15 @@ function montarPergunta() {
                 <button>Responder</button>
             </section>`
 }
+
+function alterarSinais(texto){
+    return texto.replace(/</g, "&lt;").replace(/>/g, "&gt;")
+}
+
+function guardarResposta(evento){
+    resposta = evento.target.value
+    idInputResposta = evento.target.id
+
+    const botaoEnviar = document.querySelector(".alternativas button")
+    botaoEnviar.addEventListener("click", validarResposta)
+}

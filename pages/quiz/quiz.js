@@ -1,4 +1,3 @@
-
 import { verificarTema, trocarTema } from "../../helpers/tema-helper.js";
 
 const botaoTema = document.querySelector(".tema button")
@@ -113,7 +112,6 @@ function guardarResposta(evento){
     botaoEnviar.addEventListener("click", validarResposta)
 }
 
-
 function validarResposta(){
     const botaoEnviar = document.querySelector(".alternativas button")
     botaoEnviar.innerText = "Próxima"
@@ -150,7 +148,8 @@ function proximaPergunta() {
 
 function adicionarEventoInputs(){
     const inputsResposta = document.querySelectorAll(".alternativas input")
-       input.addEventListener("click", guardarResposta)
+    inputsResposta.forEach(input => {
+        input.addEventListener("click", guardarResposta)
 
         if (input.value === quiz.questions[pergunta-1].answer) {
             respostaCorretaId = input.id

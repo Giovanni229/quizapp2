@@ -118,3 +118,17 @@ header {
     height: 12px;
     border-radius: 999px;
 }
+main {
+    padding: 32px 24px;
+}
+
+.pergunta {
+    margin-bottom: 40px;
+}
+
+.pergunta p {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--secondery-text-color);
+    margin-bottom: 12px;
+}

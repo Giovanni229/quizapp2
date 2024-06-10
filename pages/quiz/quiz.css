@@ -172,4 +172,8 @@ main{
     color: var(--primary-text-color);
 }
 
+.alternativas label:has(input:checked) {
+        outline: 3px solid var(--purple);
+}
+
 

@@ -176,4 +176,13 @@ main{
         outline: 3px solid var(--purple);
 }
 
+.alternativas div{
+    gap: 32px;
+}
+
+.alternativas div span{
+    width: 56px;
+    height: 56px;
+    font-size: 28px;
+}
 
